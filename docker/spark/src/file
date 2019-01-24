@@ -1,0 +1,13 @@
+total 790324
+-rw-r--r--. 1 root root      1057 Jan 24 12:50 core-site.xml
+-rw-r--r--. 1 root root 345625475 Jan 24 10:20 hadoop-3.2.0.tar.gz
+-rw-r--r--. 1 root root      2452 Jan 24 10:19 hdfs-site.xml
+-rw-r--r--. 1 root root 191817140 Jan 24 10:20 jdk-8u201-linux-x64.tar.gz
+-rw-r--r--. 1 root root   6717987 Jan 24 10:20 scala-2.12.8.tar.gz
+-rw-r--r--. 1 root root        20 Jan 24 12:50 slaves
+-rw-r--r--. 1 root root 227893062 Jan 24 10:20 spark-2.4.0-bin-hadoop2.7.tgz
+-rw-r--r--. 1 root root      4640 Jan 24 12:50 spark-env.sh
+-rw-r--r--. 1 root root        20 Jan 24 12:50 workers
+-rw-r--r--. 1 root root       890 Jan 24 12:50 yarn-site.xml
+-rw-r--r--. 1 root root      1004 Jan 24 11:52 zoo.cfg
+-rw-r--r--. 1 root root  37191810 Jan 24 10:20 zookeeper-3.4.13.tar.gz

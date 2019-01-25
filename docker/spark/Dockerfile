@@ -15,6 +15,10 @@ RUN mv -f zoo.cfg /usr/zookeeper-3.4.13/conf/zoo.cfg && mv -f core-site.xml /usr
 
 RUN bash -c 'echo "export PATH=/usr/jdk1.8.0_201/bin:/usr/scala-2.12.8/bin:/usr/zookeeper-3.4.13/bin:/usr/hadoop-3.2.0/bin:/usr/hadoop-3.2.0/sbin:/usr/spark-2.4.0-bin-hadoop2.7/sbin:/usr/spark-2.4.0-bin-hadoop2.7/bin:$PATH" >> /root/.bashrc && echo 1 > /root/zookeeper/tmp/myid && echo "export JAVA_HOME=/usr/jdk1.8.0_201" >> /usr/hadoop-3.2.0/etc/hadoop/hadoop-env.sh'
 
+#EXPOSE 50070
+#EXPOSE 8088
+#EXPOSE 8080
+
 CMD	["/bin/bash"]
 
-# docker build -t ubuntu/spark:v1.1 .
+# docker build -t ubuntu/Spark:v1.1 .
